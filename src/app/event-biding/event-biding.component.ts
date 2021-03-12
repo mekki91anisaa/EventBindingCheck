@@ -18,7 +18,7 @@ export class EventBidingComponent implements OnInit {
      console.log(newColor);
      this.colors=newColor;
   }
-
+//methode set color default
   defaultColor(){
     
     this.colors=this.defaultColors;
